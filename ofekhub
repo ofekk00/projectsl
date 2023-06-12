@@ -512,6 +512,12 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_D
     end
 end)
 
+Misc:AddButton("Soyama Damage Buff",function()
+    while wait(18)
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("clan_furiosity_add"):FireServer(true)
+    end
+end)
+
 Misc:AddButton("Give All Items",function()
 giveallitems()
 end)
@@ -1573,6 +1579,12 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_D
     end
 end)
 
+Misc:AddButton("Soyama Damage Buff",function()
+    while wait(18)
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("clan_furiosity_add"):FireServer(true)
+    end
+end)
+
 Misc:AddButton("No Sun Burn - Demon Only",function()
     pcall(function()
     game:GetService("Players").LocalPlayer.PlayerScripts["Small_Scripts"].Gameplay["Sun_Damage"].Disabled = true
@@ -2559,6 +2571,12 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_D
     end
 end)
 
+Misc:AddButton("Soyama Damage Buff",function()
+    while wait(18)
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("clan_furiosity_add"):FireServer(true)
+    end
+end)
+
 Misc:AddButton("No Sun Burn - Demon Only",function()
     pcall(function()
     game:GetService("Players").LocalPlayer.PlayerScripts["Small_Scripts"].Gameplay["Sun_Damage"].Disabled = true
@@ -3198,6 +3216,12 @@ Misc:AddButton("Fans Buff - Demon Only",function()
     }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_Drums_remote"):FireServer(unpack(args))
+    end
+end)
+
+Misc:AddButton("Soyama Damage Buff",function()
+    while wait(18)
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("clan_furiosity_add"):FireServer(true)
     end
 end)
 
