@@ -493,7 +493,7 @@ end)
 end)
 
 Misc:AddButton("Fans Buff - Demon Only",function()
-    while wait(25) do
+    while wait(23) do
     local args = {
         [1] = true
     }
@@ -1554,7 +1554,7 @@ Misc:AddButton("God Mode - Kamado Only",function()
 end)
 
 Misc:AddButton("Fans Buff - Demon Only",function()
-    while wait(25) do
+    while wait(23) do
     local args = {
         [1] = true
     }
@@ -2540,7 +2540,7 @@ Misc:AddButton("God Mode - Kamado Only",function()
 end)
 
 Misc:AddButton("Fans Buff - Demon Only",function()
-    while wait(25) do
+    while wait(23) do
     local args = {
         [1] = true
     }
@@ -3182,7 +3182,7 @@ Misc:AddButton("God Mode - Kamado Only",function()
 end)
 
 Misc:AddButton("Fans Buff - Demon Only",function()
-    while wait(25) do
+    while wait(23) do
     local args = {
         [1] = true
     }
