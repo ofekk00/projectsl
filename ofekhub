@@ -1,3 +1,13 @@
+--Whitelist System
+
+local player = game.Players.LocalPlayer
+
+if player.Name == "deluxeO_o" or "ofekbackup" or "cool_dog2424" or "ofeksmurf" then
+    print("Whitelisted")
+    else
+        player:Kick("Not " .. "Whitelisted")
+    end
+
 repeat task.wait() until game:IsLoaded()
 
 local vu = game:GetService("VirtualUser")
