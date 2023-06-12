@@ -513,7 +513,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_D
 end)
 
 Misc:AddButton("Soyama Damage Buff",function()
-    while wait(18) do
+    while wait(20) do
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("clan_furiosity_add"):FireServer(true)
     end
 end)
@@ -1580,7 +1580,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_D
 end)
 
 Misc:AddButton("Soyama Damage Buff",function()
-    while wait(18) do
+    while wait(20) do
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("clan_furiosity_add"):FireServer(true)
     end
 end)
@@ -2572,7 +2572,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_D
 end)
 
 Misc:AddButton("Soyama Damage Buff",function()
-    while wait(18) do
+    while wait(20) do
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("clan_furiosity_add"):FireServer(true)
     end
 end)
@@ -3220,7 +3220,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_D
 end)
 
 Misc:AddButton("Soyama Damage Buff",function()
-    while wait(18) do
+    while wait(20) do
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("clan_furiosity_add"):FireServer(true)
     end
 end)
