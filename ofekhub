@@ -503,18 +503,16 @@ end)
 end)
 
 Misc:AddButton("Fans Buff - Demon Only",function()
-    while wait(23) do
-    local args = {
-        [1] = true
-    }
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_Drums_remote"):FireServer(unpack(args))
+    while wait(0.5) do
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_Drums_remote"):FireServer(true)
+    wait(23)
     end
 end)
 
 Misc:AddButton("Soyama Damage Buff",function()
-    while wait(20) do
+    while wait(0.5) do
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("clan_furiosity_add"):FireServer(true)
+    wait(30)
     end
 end)
 
@@ -1570,18 +1568,16 @@ Misc:AddButton("God Mode - Kamado Only",function()
 end)
 
 Misc:AddButton("Fans Buff - Demon Only",function()
-    while wait(23) do
-    local args = {
-        [1] = true
-    }
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_Drums_remote"):FireServer(unpack(args))
+    while wait(0.5) do
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_Drums_remote"):FireServer(true)
+    wait(23)
     end
 end)
 
 Misc:AddButton("Soyama Damage Buff",function()
-    while wait(20) do
+    while wait(0.5) do
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("clan_furiosity_add"):FireServer(true)
+    wait(30)
     end
 end)
 
@@ -2562,18 +2558,16 @@ Misc:AddButton("God Mode - Kamado Only",function()
 end)
 
 Misc:AddButton("Fans Buff - Demon Only",function()
-    while wait(23) do
-    local args = {
-        [1] = true
-    }
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_Drums_remote"):FireServer(unpack(args))
+    while wait(0.5) do
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_Drums_remote"):FireServer(true)
+    wait(23)
     end
 end)
 
 Misc:AddButton("Soyama Damage Buff",function()
-    while wait(20) do
+    while wait(0.5) do
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("clan_furiosity_add"):FireServer(true)
+    wait(30)
     end
 end)
 
@@ -3210,18 +3204,16 @@ Misc:AddButton("God Mode - Kamado Only",function()
 end)
 
 Misc:AddButton("Fans Buff - Demon Only",function()
-    while wait(23) do
-    local args = {
-        [1] = true
-    }
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_Drums_remote"):FireServer(unpack(args))
+    while wait(0.5) do
+    game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("war_Drums_remote"):FireServer(true)
+    wait(23)
     end
 end)
 
 Misc:AddButton("Soyama Damage Buff",function()
-    while wait(20) do
+    while wait(0.5) do
     game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("clan_furiosity_add"):FireServer(true)
+    wait(30)
     end
 end)
 
