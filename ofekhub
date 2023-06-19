@@ -319,30 +319,28 @@ local Misc1 = window:CreateTab("Misc")
 local Misc = Misc1:CreateSector("Misc", 'left')
 local Gourds = Misc1:CreateSector("Gourd", "right")
 local Teleports = Misc1:CreateSector("Teleports", "right")
+
+--Changelog
+local change = window:CreateTab("Changelog")
+local Changelog = change:CreateSector("Changelog", 'left')
+
+Changelog:AddLabel("-Added Tengen")
+Changelog:AddLabel("-Added Douma")
+Changelog:AddLabel("-Added Sound Trainee")
+Changelog:AddLabel("-Added Snow Trainee")
+Changelog:AddLabel("-Added Fans to KA Method")
+Changelog:AddLabel("-Added Fans Buff")
+Changelog:AddLabel("-Added Soyama DMG Buff")
+Changelog:AddLabel("-Added Whitelist System")
+Changelog:AddLabel("-Updated Credits Tab")
+Changelog:AddLabel("-Updated Auto Collect Chest")
+
 --Credits
 local Cred = window:CreateTab("Credits")
 local Credits = Cred:CreateSector("Credits", 'left')
 
-Credits:AddButton("Join/Copy Discord",function()
-    setclipboard("discord.gg/FuaXEFb8nG")
-    syn.request(
-        {
-            Url = "http://127.0.0.1:6463/rpc?v=1",
-            Method = "POST",
-            Headers = {
-                ["Content-Type"] = "application/json",
-                ["origin"] = "https://discord.com",
-            },
-            Body = game:GetService("HttpService"):JSONEncode(
-                {
-                    ["args"] = {
-                        ["code"] = "FuaXEFb8nG",
-                    },
-                    ["cmd"] = "INVITE_BROWSER",
-                    ["nonce"] = "."
-                })
-        })
-    end)
+Credits:AddLabel("Made by Ofek")
+
 --Farming
 Farming:AddDropdown("Dropdown", BossessTable, '', false, function(value)
     getgenv().SelectedBoss = value
@@ -1299,7 +1297,7 @@ function Hop()
 end
 
 --Bosses
-local BossessTable = {"Slasher", "Nomay Bandit Boss", "Rengoku", "Inosuke","Renpeke","Muichiro Tokito","Enme","Swampy","Akeza", "Douma", "Tengen"}
+local BossessTable = {"Akeza", "Douma", "Enme", "Inosuke", "Muichiro Tokito", "Nomay Bandit Boss", "Rengoku", "Renpeke", "Slasher", "Snow Trainee", "Sound Trainee", "Swampy", "Tengen"}
 local bosCFTable = {
     ["Nomay Bandit Boss"] = CFrame.new(3519, 673, -1898),
     Slasher = CFrame.new(950, 487, -1353),
@@ -1308,6 +1306,8 @@ local bosCFTable = {
     Akaza = CFrame.new(1970, 556, -142),
     ["Douma"] = CFrame.new(-2.45, 512, -1680),
     ["Tengen"] = CFrame.new(1493, 486, -3058),
+    ["Sound Trainee"] = CFrame.new(1894, 663, -2815),
+    ["Snow Trainee"] = CFrame.new(234, 531, -2991),
     Renpeke = CFrame.new(-1193, 601, -558),
     ["Muchiro Tokito"] = CFrame.new(4431, 673, -440),
     ["Enme"] = CFrame.new(1577, 483, -681),
@@ -1390,30 +1390,27 @@ local Misc1 = window:CreateTab("Misc")
 local Misc = Misc1:CreateSector("Misc", 'left')
 local Gourds = Misc1:CreateSector("Gourd", "right")
 local Teleports = Misc1:CreateSector("Teleports", "right")
+--Changelog
+local change = window:CreateTab("Changelog")
+local Changelog = change:CreateSector("Changelog", 'left')
+
+Changelog:AddLabel("-Added Tengen")
+Changelog:AddLabel("-Added Douma")
+Changelog:AddLabel("-Added Sound Trainee")
+Changelog:AddLabel("-Added Snow Trainee")
+Changelog:AddLabel("-Added Fans to KA Method")
+Changelog:AddLabel("-Added Fans Buff")
+Changelog:AddLabel("-Added Soyama DMG Buff")
+Changelog:AddLabel("-Added Whitelist System")
+Changelog:AddLabel("-Updated Credits Tab")
+Changelog:AddLabel("-Updated Auto Collect Chest")
+
 --Credits
 local Cred = window:CreateTab("Credits")
 local Credits = Cred:CreateSector("Credits", 'left')
 
-Credits:AddButton("Join/Copy Discord",function()
-    setclipboard("discord.gg/SHE7PXUT2B")
-    syn.request(
-        {
-            Url = "http://127.0.0.1:6463/rpc?v=1",
-            Method = "POST",
-            Headers = {
-                ["Content-Type"] = "application/json",
-                ["origin"] = "https://discord.com",
-            },
-            Body = game:GetService("HttpService"):JSONEncode(
-                {
-                    ["args"] = {
-                        ["code"] = "SHE7PXUT2B",
-                    },
-                    ["cmd"] = "INVITE_BROWSER",
-                    ["nonce"] = "."
-                })
-        })
-    end)
+Credits:AddLabel("Made by Ofek")
+
 --Farming
 Farming:AddDropdown("Dropdown", BossessTable, '', false, function(value)
     getgenv().SelectedBoss = value
@@ -2422,32 +2419,26 @@ local Skills = Main:CreateSector("Skills", "right")
 --Other
 local Misc1 = window:CreateTab("Misc")
 local Misc = Misc1:CreateSector("Misc", 'left')
+--Changelog
+local change = window:CreateTab("Changelog")
+local Changelog = change:CreateSector("Changelog", 'left')
+
+Changelog:AddLabel("-Added Tengen")
+Changelog:AddLabel("-Added Douma")
+Changelog:AddLabel("-Added Sound Trainee")
+Changelog:AddLabel("-Added Snow Trainee")
+Changelog:AddLabel("-Added Fans to KA Method")
+Changelog:AddLabel("-Added Fans Buff")
+Changelog:AddLabel("-Added Soyama DMG Buff")
+Changelog:AddLabel("-Added Whitelist System")
+Changelog:AddLabel("-Updated Credits Tab")
+Changelog:AddLabel("-Updated Auto Collect Chest")
+
 --Credits
 local Cred = window:CreateTab("Credits")
 local Credits = Cred:CreateSector("Credits", 'left')
 
-Credits:AddButton("Join/Copy Discord",function()
-    setclipboard("discord.gg/SHE7PXUT2B")
-    syn.request(
-        {
-            Url = "http://127.0.0.1:6463/rpc?v=1",
-            Method = "POST",
-            Headers = {
-                ["Content-Type"] = "application/json",
-                ["origin"] = "https://discord.com",
-            },
-            Body = game:GetService("HttpService"):JSONEncode(
-                {
-                    ["args"] = {
-                        ["code"] = "SHE7PXUT2B",
-                    },
-                    ["cmd"] = "INVITE_BROWSER",
-                    ["nonce"] = "."
-                })
-        })
-    end)
-
-
+Credits:AddLabel("Made by Ofek")
 
 --Farming
 Farming:AddToggle("Farm Dungeon", false, function(value)
@@ -3121,32 +3112,27 @@ local Settings = Main:CreateSector("Settings", "right")
 --Other
 local Misc1 = window:CreateTab("Misc")
 local Misc = Misc1:CreateSector("Misc", 'left')
+
+--Changelog
+local change = window:CreateTab("Changelog")
+local Changelog = change:CreateSector("Changelog", 'left')
+
+Changelog:AddLabel("-Added Tengen")
+Changelog:AddLabel("-Added Douma")
+Changelog:AddLabel("-Added Sound Trainee")
+Changelog:AddLabel("-Added Snow Trainee")
+Changelog:AddLabel("-Added Fans to KA Method")
+Changelog:AddLabel("-Added Fans Buff")
+Changelog:AddLabel("-Added Soyama DMG Buff")
+Changelog:AddLabel("-Added Whitelist System")
+Changelog:AddLabel("-Updated Credits Tab")
+Changelog:AddLabel("-Updated Auto Collect Chest")
+
 --Credits
 local Cred = window:CreateTab("Credits")
 local Credits = Cred:CreateSector("Credits", 'left')
 
-Credits:AddButton("Join/Copy Discord",function()
-    setclipboard("discord.gg/SHE7PXUT2B")
-    syn.request(
-        {
-            Url = "http://127.0.0.1:6463/rpc?v=1",
-            Method = "POST",
-            Headers = {
-                ["Content-Type"] = "application/json",
-                ["origin"] = "https://discord.com",
-            },
-            Body = game:GetService("HttpService"):JSONEncode(
-                {
-                    ["args"] = {
-                        ["code"] = "SHE7PXUT2B",
-                    },
-                    ["cmd"] = "INVITE_BROWSER",
-                    ["nonce"] = "."
-                })
-        })
-    end)
-
-
+Credits:AddLabel("Made by Ofek")
 
 --Farming
 
